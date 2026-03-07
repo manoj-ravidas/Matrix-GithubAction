@@ -1,6 +1,2 @@
 flask
-<<<<<<< HEAD
 flake8
-=======
-flake8
->>>>>>> 0a1a7b28a90438246eb1cfad3fd168ebf5f8fc93
