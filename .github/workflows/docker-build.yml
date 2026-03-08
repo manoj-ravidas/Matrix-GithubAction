@@ -23,6 +23,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            ${{ vars.DOCKERHUB_USER }}/github-action-app:main
-            ${{ vars.DOCKERHUB_USER }}/github-action-app:latest
+          tags:
+            - ${{ vars.DOCKERHUB_USER }}/github-action-app:main
+            - ${{ vars.DOCKERHUB_USER }}/github-action-app:latest
